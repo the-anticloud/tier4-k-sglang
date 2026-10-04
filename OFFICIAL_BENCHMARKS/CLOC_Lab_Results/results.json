@@ -1,0 +1,17 @@
+{
+  "benchmark": "CLOC_Lab_Results",
+  "project": "K_SGLANG",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://github.com/AlDanial/cloc",
+  "results": {
+    "framework": "CLOC \u2014 Count Lines of Code (via project_facts.json)",
+    "source": "https://github.com/AlDanial/cloc",
+    "total_files": 0,
+    "total_source_lines": 0,
+    "languages": {},
+    "primary_language": "UNKNOWN",
+    "language_count": 0,
+    "lines_per_file": 0,
+    "status": "FAIL"
+  }
+}

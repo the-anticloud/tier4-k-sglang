@@ -1,0 +1,47 @@
+{
+  "benchmark": "HELM_Lab_Results",
+  "project": "K_SGLANG",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "sgl-project/sglang",
+  "commit": "",
+  "run_timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_load_time_sec": 2.96,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HELM \u2014 Stanford Holistic Evaluation of Language Models (proxy)",
+    "source": "https://github.com/stanford-crfm/helm",
+    "note": "Full HELM requires GPU. Proxy: consistency + latency across 3 deterministic runs.",
+    "input": "Project K_SGLANG provides 0 tracked files across [] with 0 source lines.",
+    "runs": [
+      {
+        "seed": 0,
+        "label": "LABEL_0",
+        "score": 0.5342,
+        "latency_ms": 31.54
+      },
+      {
+        "seed": 1,
+        "label": "LABEL_0",
+        "score": 0.5342,
+        "latency_ms": 35.01
+      },
+      {
+        "seed": 2,
+        "label": "LABEL_0",
+        "score": 0.5342,
+        "latency_ms": 38.18
+      }
+    ],
+    "consistency": "PASS",
+    "avg_latency_ms": 34.91,
+    "status": "PASS",
+    "language_diversity": 0,
+    "primary_language": "UNKNOWN",
+    "fairness_keywords_found": false
+  }
+}

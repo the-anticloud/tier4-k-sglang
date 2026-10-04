@@ -1,0 +1,28 @@
+# Upstream Provenance
+
+**Project:** `K_SGLANG`  
+**Tier:** TIER_4_INFERENCE_AGENTS  
+**Identity:** Upstream `sgl-project/sglang` @ `eb9c9ee99d47` (Apache-2.0)
+
+## Recorded identity
+
+| Fact | Value |
+| --- | --- |
+| Upstream | `sgl-project/sglang` |
+| Commit | `eb9c9ee99d47bf4c526a06cd84da59cd9cf4e2a5` |
+| Upstream licence | Apache-2.0 |
+| Licence class | permissive |
+| Clone size | 126.11 MB |
+| Ledger | 0 blocks, chain verified |
+| Current TRL | NOT YET MEASURED |
+| Post-optimisation TRL | NOT YET MEASURED |
+| II budget cap | 1000.0 IIU |
+| Verified upstream edits | 1 |
+
+## Obligation
+
+`K_SGLANG` is vendored under Apache-2.0 (permissive). Any Anticloud edit to
+the vendored tree is a derivative work and is tracked in
+`anticloud-edits.json`; the notice of changes is at the project `NOTICE.md`.
+Where the licence class is `unknown`, no edit may be applied until the
+licence is identified, because the absence of a licence is not a grant.

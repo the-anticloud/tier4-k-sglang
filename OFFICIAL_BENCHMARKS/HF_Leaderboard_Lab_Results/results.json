@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "K_SGLANG",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "sgl-project/sglang",
+  "commit": "",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 56.87,
+      "min": 49.52,
+      "max": 68.22,
+      "all": [
+        68.22,
+        64.09,
+        49.52,
+        51.98,
+        50.52
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "K_SGLANG (sgl-project/sglang) \u2014 0 files, 0 source lines, licence unknown, primary language []",
+      "token_count": 30,
+      "tokens_preview": [
+        "[CLS]",
+        "k",
+        "_",
+        "sg",
+        "##lang",
+        "(",
+        "sg",
+        "##l",
+        "-",
+        "project",
+        "/",
+        "sg",
+        "##lang",
+        ")",
+        "\u2014",
+        "0",
+        "files",
+        ",",
+        "0",
+        "source"
+      ],
+      "tokenization_latency_ms": 1.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5819,
+      "classification_latency_ms": 63.51,
+      "status": "PASS"
+    }
+  }
+}
